@@ -1,0 +1,8 @@
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\bin\Debug\First_Tutorial_ConsoleApp.exe.config
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\bin\Debug\First_Tutorial_ConsoleApp.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\bin\Debug\First_Tutorial_ConsoleApp.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\obj\Debug\First_Tutorial_ConsoleApp.csproj.AssemblyReference.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\obj\Debug\First_Tutorial_ConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\obj\Debug\First_Tutorial_ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\obj\Debug\First_Tutorial_ConsoleApp.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\First_Tutorial_ConsoleApp\obj\Debug\First_Tutorial_ConsoleApp.pdb
