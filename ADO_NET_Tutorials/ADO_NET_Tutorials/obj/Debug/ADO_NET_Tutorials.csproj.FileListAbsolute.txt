@@ -1,0 +1,8 @@
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\bin\Debug\ADO_NET_Tutorials.exe.config
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\bin\Debug\ADO_NET_Tutorials.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\bin\Debug\ADO_NET_Tutorials.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\obj\Debug\ADO_NET_Tutorials.csproj.AssemblyReference.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\obj\Debug\ADO_NET_Tutorials.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\obj\Debug\ADO_NET_Tutorials.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\obj\Debug\ADO_NET_Tutorials.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\ADO_NET_Tutorials\obj\Debug\ADO_NET_Tutorials.pdb

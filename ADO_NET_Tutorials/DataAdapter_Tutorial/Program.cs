@@ -55,17 +55,17 @@ namespace DataAdapter_Tutorial
         // The filled DataSet is then returned.
         // To accomplish this, the method is passed an initialized DataSet, a connection string,
         // and a query string that is a Transact-SQL SELECT statement.
-        private static DataSet SelectRows_0(DataSet dataSet, 
-            string connectionString, string queryString)
-        {
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                SqlDataAdapter adapter = new SqlDataAdapter();
-                adapter.SelectCommand = new SqlCommand(queryString, connection);
-                adapter.Fill(dataSet);
-                return dataSet;
-            }
-        }
+        //private static DataSet SelectRows_0(DataSet dataSet, 
+        //    string connectionString, string queryString)
+        //{
+        //    using (SqlConnection connection = new SqlConnection(connectionString))
+        //    {
+        //        SqlDataAdapter adapter = new SqlDataAdapter();
+        //        adapter.SelectCommand = new SqlCommand(queryString, connection);
+        //        adapter.Fill(dataSet);
+        //        return dataSet;
+        //    }
+        //}
 
         // Get a connection string
         private static string GetConnectionString()
