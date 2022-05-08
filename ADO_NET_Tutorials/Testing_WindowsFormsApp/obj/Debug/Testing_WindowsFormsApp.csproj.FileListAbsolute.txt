@@ -1,0 +1,11 @@
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\bin\Debug\Testing_WindowsFormsApp.exe.config
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\bin\Debug\Testing_WindowsFormsApp.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\bin\Debug\Testing_WindowsFormsApp.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.csproj.AssemblyReference.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.Form1.resources
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.Properties.Resources.resources
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.csproj.GenerateResource.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Testing_WindowsFormsApp\obj\Debug\Testing_WindowsFormsApp.pdb

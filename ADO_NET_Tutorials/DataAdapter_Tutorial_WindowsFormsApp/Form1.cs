@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using System.Data;
 using System.Data.SqlClient;
 
 namespace DataAdapter_Tutorial_WindowsFormsApp
@@ -20,54 +19,61 @@ namespace DataAdapter_Tutorial_WindowsFormsApp
             InitializeComponent();
         }
 
-        //private void Form1_Load(object sender, EventArgs e)
-        //{
-        //    string connectionString =
-        //        "Data Source=.;Initial Catalog=Northwind;Integrated Security=True";
-        //    string queryString =
-        //        "SELECT CategoryID, CategoryName FROM dbo.Categories ";
-        //    // Create a SqlConnection instance
-        //    SqlConnection connection = new SqlConnection(connectionString);
-        //    // Create a SqlDataAdapter instance
-        //    SqlDataAdapter adapter = new SqlDataAdapter(queryString, connection);
-        //    // Create a DataSet instance
-        //    DataSet dataSet = new DataSet();
-        //    // Fill the dataSet with records returned by SELECT statement written in SqlDataAdapter
-        //    //adapter.Fill(dataSet);
-        //    adapter.Fill(dataSet, "categories");
-
-        //    // Bind the data source of the dataGridView1
-        //    dataGridView1.DataSource = dataSet.Tables["categories"];
-        //}
-
+        // 1. Fill the DataSet with records from a DataTable
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Declare a connection string
-            string connectionString = GetConnectionString();
-            // Declare a query string (SELECT statement)                
-            string queryString =
-                "SELECT CategoryID, CategoryName FROM dbo.Categories ";
+            // Create a DataTable instance
+            DataTable dataTable = new DataTable();
 
-            // Initialize a DataSet instance
-            DataSet dataSet = new DataSet();
-            // Fill the data to the dataSet
-            // Way 1: Do not use a table name
-            //SelectRows(dataSet, connectionString, queryString);
-            // Way 2: Use a table name
-            SelectRows2(dataSet, connectionString, queryString, "categories");
+            // Create three DataColumn instances
+            DataColumn idColumn = new DataColumn("ID", typeof(Int32));
+            DataColumn nameColumn = new DataColumn("Name", typeof(String));
+            DataColumn cityColumn = new DataColumn("City", typeof(String));
 
-            // Bind data to the dataGridView's data source
-            // Way 1: Do not use a table name
-            //dataGridView1.DataSource = dataSet.Tables[0];
-            // Way 2: Use a table name
-            dataGridView1.DataSource = dataSet.Tables["categories"];
+            // Add three columns to the dataTable's collection of columns
+            dataTable.Columns.Add(idColumn);
+            dataTable.Columns.Add(nameColumn);
+            dataTable.Columns.Add(cityColumn);
 
-            //string queryString2 =
-            //    "SELECT CustomerID, ContactName FROM dbo.Customers";
-            //SelectRows2(dataSet, connectionString, queryString2, "customers");
-            ////dataGridView1.DataSource = dataSet.Tables[0];
-            //dataGridView1.DataSource = dataSet.Tables["customers"];
+            // Create a row using specifed values and add it to the dataTable's collection of rows
+            dataTable.Rows.Add(1, "Alex Ferguson", "Manchester");
+            dataTable.Rows.Add(2, "Peter Pan", "New York");
+            dataTable.Rows.Add(3, "Hillary Duff", "San Diego");
+
+            // Set data for dataGridView's DataSource
+            dataGridView1.DataSource = dataTable;
         }
+        // ------------------------------------------------------------------------------------------------
+
+        // 2. Fill the DataSet with records from the SqlDataAdapter
+        //private void Form1_Load(object sender, EventArgs e)
+        //{
+        //    // Declare a connection string
+        //    string connectionString = GetConnectionString();
+        //    // Declare a query string (SELECT statement)                
+        //    string queryString =
+        //        "SELECT CategoryID, CategoryName FROM dbo.Categories ";
+
+        //    // Initialize a DataSet instance
+        //    DataSet dataSet = new DataSet();
+        //    // Fill the data to the dataSet
+        //    // Way 1: Do not use a table name
+        //    //SelectRows(dataSet, connectionString, queryString);
+        //    // Way 2: Use a table name
+        //    SelectRows(dataSet, connectionString, queryString, "categories");
+
+        //    // Bind data to the dataGridView's data source
+        //    // Way 1: Do not use a table name
+        //    //dataGridView1.DataSource = dataSet.Tables[0];
+        //    // Way 2: Use a table name
+        //    dataGridView1.DataSource = dataSet.Tables["categories"];
+
+        //    //string queryString2 =
+        //    //    "SELECT CustomerID, ContactName FROM dbo.Customers";
+        //    //SelectRows2(dataSet, connectionString, queryString2, "customers");
+        //    ////dataGridView1.DataSource = dataSet.Tables[0];
+        //    //dataGridView1.DataSource = dataSet.Tables["customers"];
+        //}
 
         // Use this method we can retrieve a connection string 
         // from a configuration file instead of storing it in the code.
@@ -76,8 +82,9 @@ namespace DataAdapter_Tutorial_WindowsFormsApp
             return "Data Source=.;Initial Catalog=Northwind;Integrated Security=True";
         }
 
-        // Fill data to a DataSet and set name for table in the DataSet
-        private DataSet SelectRows2(DataSet dataSet,
+        // Fill the DataSet with records from the SqlDataAdapter
+        // and set name for table in the DataSet
+        private DataSet SelectRows(DataSet dataSet,
             string connectionString, string queryString, string tableName)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
@@ -85,23 +92,21 @@ namespace DataAdapter_Tutorial_WindowsFormsApp
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 adapter.SelectCommand = new SqlCommand(queryString, connection);
                 adapter.Fill(dataSet, tableName);
+                return dataSet;
             }
-
-            return dataSet;
         }
 
-        // Fill data to a DataSet
-        private DataSet SelectRows(DataSet dataSet,
+        // Fill the DataSet with records from the SqlDataAdapter
+        private DataSet SelectRows_1(DataSet dataSet,
             string connectionString, string queryString)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 SqlDataAdapter adapter = new SqlDataAdapter();
                 adapter.SelectCommand = new SqlCommand(queryString, connection);
-                adapter.Fill(dataSet); 
+                adapter.Fill(dataSet);
+                return dataSet;
             }
-
-            return dataSet;
         }
     }
 }

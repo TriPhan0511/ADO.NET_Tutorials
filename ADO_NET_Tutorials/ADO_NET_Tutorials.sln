@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapter_Tutorial", "Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapter_Tutorial_WindowsFormsApp", "DataAdapter_Tutorial_WindowsFormsApp\DataAdapter_Tutorial_WindowsFormsApp.csproj", "{F7081DE7-377B-4AF0-AD2D-83107F9761CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing_WindowsFormsApp", "Testing_WindowsFormsApp\Testing_WindowsFormsApp.csproj", "{297D5905-B822-414E-9054-E1CC9A2D9F51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{297D5905-B822-414E-9054-E1CC9A2D9F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{297D5905-B822-414E-9054-E1CC9A2D9F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{297D5905-B822-414E-9054-E1CC9A2D9F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{297D5905-B822-414E-9054-E1CC9A2D9F51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
