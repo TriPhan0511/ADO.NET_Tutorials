@@ -19,9 +19,11 @@ namespace DataAdapter_Tutorial
             //dataSet = SelectRows_0(dataSet, connectionString, queryString);
             SelectRows(dataSet, connectionString, queryString, "categoriesTable");
 
+            // Print out each cell in a row
             //Console.WriteLine($"{dataSet.Tables[0].Rows[0][0]}");
             //Console.WriteLine($"{dataSet.Tables[0].Rows[0][1]}");
 
+            // Print out a table
             DataTable table = dataSet.Tables["categoriesTable"];
             for (int i = 0; i < table.Rows.Count; i++)
             {
