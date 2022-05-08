@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_NET_Tutorials", "ADO_NET_Tutorials\ADO_NET_Tutorials.csproj", "{BE802ECE-B469-4281-84C3-523F4788615E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First_Tutorial_ConsoleApp", "First_Tutorial_ConsoleApp\First_Tutorial_ConsoleApp.csproj", "{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReader_Tutorial", "DataReader_Tutorial\DataReader_Tutorial.csproj", "{0C535811-3469-42AB-9FAF-BEE67403EDFC}"
@@ -17,16 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing_WindowsFormsApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls_Tutorials_2_WindowsFormsApp", "Controls_Tutorials_2_WindowsFormsApp\Controls_Tutorials_2_WindowsFormsApp.csproj", "{78AE7671-FB9D-41A5-A1FA-2BCC6584A9E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUD_Tutorial_WindowsFormsApp", "CRUD_Tutorial_WindowsFormsApp\CRUD_Tutorial_WindowsFormsApp.csproj", "{422AF72B-D196-4A19-B50A-F9E3DD9C6F6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE802ECE-B469-4281-84C3-523F4788615E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE802ECE-B469-4281-84C3-523F4788615E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE802ECE-B469-4281-84C3-523F4788615E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE802ECE-B469-4281-84C3-523F4788615E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{78AE7671-FB9D-41A5-A1FA-2BCC6584A9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78AE7671-FB9D-41A5-A1FA-2BCC6584A9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78AE7671-FB9D-41A5-A1FA-2BCC6584A9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{422AF72B-D196-4A19-B50A-F9E3DD9C6F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{422AF72B-D196-4A19-B50A-F9E3DD9C6F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{422AF72B-D196-4A19-B50A-F9E3DD9C6F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{422AF72B-D196-4A19-B50A-F9E3DD9C6F6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

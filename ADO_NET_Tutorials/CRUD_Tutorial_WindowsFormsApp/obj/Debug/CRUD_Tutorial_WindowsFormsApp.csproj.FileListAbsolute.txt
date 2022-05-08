@@ -1,0 +1,11 @@
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\bin\Debug\CRUD_Tutorial_WindowsFormsApp.exe.config
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\bin\Debug\CRUD_Tutorial_WindowsFormsApp.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\bin\Debug\CRUD_Tutorial_WindowsFormsApp.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.csproj.AssemblyReference.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.Form1.resources
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.Properties.Resources.resources
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.csproj.GenerateResource.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\CRUD_Tutorial_WindowsFormsApp\obj\Debug\CRUD_Tutorial_WindowsFormsApp.pdb
