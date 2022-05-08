@@ -46,6 +46,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataSet_Tutorial_2_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet_Tutorial_2_Form.Designer.cs">
+      <DependentUpon>DataSet_Tutorial_2_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_Tutorial_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataSet_Tutorial_Form.Designer.cs">
+      <DependentUpon>DataSet_Tutorial_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTable_Tutorial_2_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTable_Tutorial_2_Form.Designer.cs">
+      <DependentUpon>DataTable_Tutorial_2_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataTable_Tutorial_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataTable_Tutorial_Form.Designer.cs">
+      <DependentUpon>DataTable_Tutorial_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +78,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataSet_Tutorial_Form.resx">
+      <DependentUpon>DataSet_Tutorial_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTable_Tutorial_2_Form.resx">
+      <DependentUpon>DataTable_Tutorial_2_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DataTable_Tutorial_Form.resx">
+      <DependentUpon>DataTable_Tutorial_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

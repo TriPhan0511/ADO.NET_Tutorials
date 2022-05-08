@@ -16,7 +16,11 @@ namespace DataAdapter_Tutorial_WindowsFormsApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //Application.Run(new Form1());
+            //Application.Run(new DataSet_Tutorial_Form());
+            //Application.Run(new DataTable_Tutorial_Form());
+            //Application.Run(new DataTable_Tutorial_2_Form());
+            Application.Run(new DataSet_Tutorial_2_Form());
         }
     }
 }

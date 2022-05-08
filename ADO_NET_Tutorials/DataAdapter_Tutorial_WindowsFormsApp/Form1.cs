@@ -60,15 +60,14 @@ namespace DataAdapter_Tutorial_WindowsFormsApp
             // Use NewRow method to create a DataRow
             DataRow row = table.NewRow();
 
-            //row["fname"] = "John";
-            //row["lname"] = "Smith";
-            //table.Rows.Add(row);
-            table.Rows.Add("David", "Beckham");
+            row["fname"] = "John";
+            row["lname"] = "Smith";
+            table.Rows.Add(row);
 
-            //DataRow row2 = table.NewRow();
-            //row2["fname"] = "Alex";
-            //row2["lname"] = "Ferguson";
-            //table.Rows.Add(row2);
+            DataRow row2 = table.NewRow();
+            row2["fname"] = "Alex";
+            row2["lname"] = "Ferguson";
+            table.Rows.Add(row2);
 
             //foreach (DataColumn column in table.Columns)
             //{
@@ -78,6 +77,8 @@ namespace DataAdapter_Tutorial_WindowsFormsApp
             dataGridView1.DataSource = table;
         }
 
+        // 2.2 Fill the DataSet with records from a DataTable
+        // ID field is auto increment
         private DataTable MakeNamesTable()
         {
             // Create a new DataTable titled "Names"
