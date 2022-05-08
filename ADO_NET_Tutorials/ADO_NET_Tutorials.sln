@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_NET_Tutorials", "ADO_NE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First_Tutorial_ConsoleApp", "First_Tutorial_ConsoleApp\First_Tutorial_ConsoleApp.csproj", "{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataReader_Tutorial", "DataReader_Tutorial\DataReader_Tutorial.csproj", "{0C535811-3469-42AB-9FAF-BEE67403EDFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapter_Tutorial", "DataAdapter_Tutorial\DataAdapter_Tutorial.csproj", "{609E45C0-8B73-4239-80DA-D2D2E63D9A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAdapter_Tutorial_WindowsFormsApp", "DataAdapter_Tutorial_WindowsFormsApp\DataAdapter_Tutorial_WindowsFormsApp.csproj", "{F7081DE7-377B-4AF0-AD2D-83107F9761CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B3BADAD-80C3-4A7B-AD67-B3C529916A6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C535811-3469-42AB-9FAF-BEE67403EDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C535811-3469-42AB-9FAF-BEE67403EDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C535811-3469-42AB-9FAF-BEE67403EDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C535811-3469-42AB-9FAF-BEE67403EDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609E45C0-8B73-4239-80DA-D2D2E63D9A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609E45C0-8B73-4239-80DA-D2D2E63D9A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609E45C0-8B73-4239-80DA-D2D2E63D9A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609E45C0-8B73-4239-80DA-D2D2E63D9A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7081DE7-377B-4AF0-AD2D-83107F9761CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

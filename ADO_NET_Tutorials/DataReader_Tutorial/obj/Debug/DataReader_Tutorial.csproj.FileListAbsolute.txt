@@ -1,0 +1,8 @@
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\bin\Debug\DataReader_Tutorial.exe.config
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\bin\Debug\DataReader_Tutorial.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\bin\Debug\DataReader_Tutorial.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\obj\Debug\DataReader_Tutorial.csproj.AssemblyReference.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\obj\Debug\DataReader_Tutorial.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\obj\Debug\DataReader_Tutorial.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\obj\Debug\DataReader_Tutorial.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataReader_Tutorial\obj\Debug\DataReader_Tutorial.pdb

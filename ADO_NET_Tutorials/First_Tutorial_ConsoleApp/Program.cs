@@ -41,6 +41,7 @@ namespace First_Tutorial_ConsoleApp
                     {
                         Console.WriteLine($"\t{reader[0]}\t{reader[1]}\t{reader[2]}");
                     }
+                    reader.Close();
                 }
                 catch (Exception ex)
                 {

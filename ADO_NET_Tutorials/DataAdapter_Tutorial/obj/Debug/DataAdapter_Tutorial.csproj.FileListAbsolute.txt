@@ -1,0 +1,8 @@
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\bin\Debug\DataAdapter_Tutorial.exe.config
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\bin\Debug\DataAdapter_Tutorial.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\bin\Debug\DataAdapter_Tutorial.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\obj\Debug\DataAdapter_Tutorial.csproj.AssemblyReference.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\obj\Debug\DataAdapter_Tutorial.csproj.SuggestedBindingRedirects.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\obj\Debug\DataAdapter_Tutorial.csproj.CoreCompileInputs.cache
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\obj\Debug\DataAdapter_Tutorial.exe
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\DataAdapter_Tutorial\obj\Debug\DataAdapter_Tutorial.pdb
