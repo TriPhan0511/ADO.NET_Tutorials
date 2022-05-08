@@ -16,6 +16,7 @@ namespace DataAdapter_Tutorial
             
         }
 
+        // LINK: https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqldataadapter?view=dotnet-plat-ext-6.0
         /// <summary>
         /// The following example uses SqlCommand, SqlDataAdapter, and SqlConnection
         /// to select records from a database and populate a DataSet with the selected rows.

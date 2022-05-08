@@ -78,6 +78,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataSet_Tutorial_2_Form.resx">
+      <DependentUpon>DataSet_Tutorial_2_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DataSet_Tutorial_Form.resx">
       <DependentUpon>DataSet_Tutorial_Form.cs</DependentUpon>
     </EmbeddedResource>
