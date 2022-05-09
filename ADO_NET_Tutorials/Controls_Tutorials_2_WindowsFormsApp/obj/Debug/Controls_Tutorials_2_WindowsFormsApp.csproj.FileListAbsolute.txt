@@ -10,3 +10,4 @@ D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Controls_Tutorials_2_Wind
 D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Controls_Tutorials_2_WindowsFormsApp\obj\Debug\Controls_Tutorials_2_WindowsFormsApp.csproj.CoreCompileInputs.cache
 D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Controls_Tutorials_2_WindowsFormsApp\obj\Debug\Controls_Tutorials_2_WindowsFormsApp.exe
 D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Controls_Tutorials_2_WindowsFormsApp\obj\Debug\Controls_Tutorials_2_WindowsFormsApp.pdb
+D:\Studying\DotNet\ADO.NET_Tutorials\ADO_NET_Tutorials\Controls_Tutorials_2_WindowsFormsApp\obj\Debug\Controls_Tutorials_2_WindowsFormsApp.ListBox_Tutorial_Form.resources

@@ -16,7 +16,8 @@ namespace Controls_Tutorials_2_WindowsFormsApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuStrip_Tutorial_Form());
+            //Application.Run(new MenuStrip_Tutorial_Form());
+            Application.Run(new ListBox_Tutorial_Form());
         }
     }
 }

@@ -89,7 +89,26 @@ namespace CRUD_Tutorial_WindowsFormsApp
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-
+            if (id != 0)
+            {
+                string connectionString = GetConnectionString();
+                string queryString = "DELETE FROM dbo.person WHERE person_id = @id";
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    connection.Open();
+                    SqlCommand command = new SqlCommand(queryString, connection);
+                    command.Parameters.AddWithValue("@id", id.ToString());
+                    command.ExecuteNonQuery();
+                    DisplayData();
+                    ClearData();
+                    MessageBox.Show("A record was deleted.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Please select a record you want to delete.");
+            }
+            
         }
 
         

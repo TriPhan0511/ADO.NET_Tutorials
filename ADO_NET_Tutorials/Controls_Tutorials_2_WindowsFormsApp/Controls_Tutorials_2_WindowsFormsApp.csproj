@@ -52,6 +52,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListBox_Tutorial_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListBox_Tutorial_Form.Designer.cs">
+      <DependentUpon>ListBox_Tutorial_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuStrip_Tutorial_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +68,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListBox_Tutorial_Form.resx">
+      <DependentUpon>ListBox_Tutorial_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuStrip_Tutorial_Form.resx">
       <DependentUpon>MenuStrip_Tutorial_Form.cs</DependentUpon>
