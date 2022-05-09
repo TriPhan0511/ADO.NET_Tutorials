@@ -95,6 +95,7 @@
             this.updateButton.TabIndex = 5;
             this.updateButton.Text = "Update";
             this.updateButton.UseVisualStyleBackColor = true;
+            this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
             // deleteButton
             // 
@@ -105,6 +106,7 @@
             this.deleteButton.TabIndex = 6;
             this.deleteButton.Text = "Delete";
             this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
             // dataGridView1
             // 
@@ -113,6 +115,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(434, 194);
             this.dataGridView1.TabIndex = 7;
+            this.dataGridView1.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGridView1_RowHeaderMouseClick);
             // 
             // Form1
             // 

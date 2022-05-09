@@ -30,3 +30,5 @@ GO
 
 SELECT person_id, person_name, person_state FROM dbo.person
 
+UPDATE dbo.person SET person_name = 'David', person_state = 'Portland' WHERE person_id = '1' 
+
